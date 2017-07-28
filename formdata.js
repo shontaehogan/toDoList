@@ -1,29 +1,21 @@
-[
-{
-  id: 0,
-  task: 'register car',
-  completed: 'yes'
-},
-
-{
-  id: 1,
-  task: 'take care of toll ticket',
-  completed: ''
-
-
-}
-
-  id: 2,
-  task: 'web academy lesson',
-  completed: ''
-
-
-}
-
-
-  id: 3,
-  task: 'work on business plan',
-  completed ''
-
-}
-]
+// [
+// {
+//
+//   id: 0,
+//   task: '',
+// }
+//
+// {
+//
+//   id: 1,
+//   task: '',
+// }
+//
+//   id: 2,
+//   task: '',
+// }
+//
+//   id: 3,
+//   task: '',
+// }
+// ]

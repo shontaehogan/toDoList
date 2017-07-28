@@ -5,12 +5,30 @@
     <title></title>
   </head>
   <body>
-    <h1>Get 'Er Done List</h1>
-    <form action="/addtodos" method="post">
-      <input placeholder="Things to do..." type="text" name="text">
-      <input placeholder="DUN!!!" type="text" name="text">
-
-      <button>Add to list</button>
+    <h1>TO DO LIST</h1>
+    <form action="/" method="POST">
+      <input type="text" placeholder="Add a task...">
+      <input type="submit" value="New Todo">
     </form>
+    <h3>TO DO</h3>
+    <ul>
+      {{#todos}}
+      <li>
+        <form action="/{{id}}" method="POST">
+          <input type="submit" value="Mark Complete"/>
+          <span>{{text}}</span>
+        </form>
+      </li>
+      {{/todos}}
+    </ul>
+    <h3>DONE</h3>
+    <ul>
+      {{#done}}
+      <li>
+      <span>{{text}}</span>
+    </li>
+      {{/done}}
+
+    </ul>
   </body>
 </html>

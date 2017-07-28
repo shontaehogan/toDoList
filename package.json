@@ -12,6 +12,7 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "mustache": "^2.3.0",
-    "mustache-express": "^1.2.5"
+    "mustache-express": "^1.2.5",
+    "nodemon": "^1.11.0"
   }
 }

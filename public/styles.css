@@ -1,6 +1,26 @@
-#wrapper {
+body {
   width: 100%;
   display: flex;
   justify-content: center;
-  flex
+  flex-direction: column;
+  background-color: blanchedalmond;
+  color: blue;
+  margin: 0em 25 em;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  justify-content: center;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+span {
+  text-decoration: line-through;
 }
