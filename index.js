@@ -47,20 +47,7 @@ pendingTodos.push ({
 // refresh wiht new data
 res.redirect('/');
 
-  // we need to create a new todo objext to store the text of the user's todo message
-
-  // let todo_object = {id: last_id,text: todo_text};
-
-
-  // add the todo object to  array of pending todo's
-  // pendingTodos.push({
-  //   id: last_id,
-  //   text: req.body.item
-  // });
-
-
-  // redirect the user back to homepage and force a refresh
-});
+  
 
 // submit page
 
