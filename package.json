@@ -14,5 +14,14 @@
     "mustache": "^2.3.0",
     "mustache-express": "^1.2.5",
     "nodemon": "^1.11.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shontaehogan/toDoList.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shontaehogan/toDoList/issues"
+  },
+  "homepage": "https://github.com/shontaehogan/toDoList#readme"
 }

@@ -7,26 +7,24 @@
   <body>
     <h1>TO DO LIST</h1>
     <form action="/" method="POST">
-      <input type="text" placeholder="Add a task...">
-      <input type="submit" value="New Todo">
+      <input type="text" name="item" placeholder="Add a task..." value="">
+      <input type="submit" value="add">
     </form>
-    <h3>TO DO</h3>
-    <ul>
+    <h3>TO BE DONE</h3>
+    <ul id="todo">
       {{#todos}}
       <li>
         <form action="/{{id}}" method="POST">
-          <input type="submit" value="Mark Complete"/>
+          <input type="submit" value="mark complete"/>
           <span>{{text}}</span>
         </form>
       </li>
       {{/todos}}
     </ul>
     <h3>DONE</h3>
-    <ul>
+    <ul id="done">
       {{#done}}
-      <li>
-      <span>{{text}}</span>
-    </li>
+      <li>{{text}}</li>
       {{/done}}
 
     </ul>
