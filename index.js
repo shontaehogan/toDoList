@@ -44,10 +44,10 @@ pendingTodos.push ({
 
 });
 
-// refresh wiht new data
+// refresh with new data
 res.redirect('/');
 
-  
+})
 
 // submit page
 
